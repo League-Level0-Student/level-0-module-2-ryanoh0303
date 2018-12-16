@@ -80,10 +80,10 @@ public class RockPaperScissors extends JPanel implements ActionListener{
 	//   Don't forget to create a Random object.
 	    
         //2. Change the value of opponentSelection to be a random number between 0 and 2; 
-        int opponentSelection = 0;
+        int opponentSelection = (int)(Math.random()*2);
         
         //3. Run the program again. Is the result different?
- 
+ //Yes.Computer wins sometimes. 
         int selection = 0;
        
         if(e.getSource() == paperButton){
